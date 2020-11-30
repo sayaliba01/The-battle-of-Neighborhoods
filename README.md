@@ -21,21 +21,21 @@ This study will be the small part in this research where we will look for the cl
 ### Datasets:
 For this project we will be using two datasets and merge them to obtain all possible data on available Cafes in Pune city.
 1.	Open-source dataset on restaurants of Pune on Zomato available on Kaggle : 
-a.	The data is scraped from Zomato site in one step using selenium, python and beautifulsoup. 
-b.	Data has usability index of 9.1 and has listing until 1 Dec., 2019.
-c.	The data contains names of restaurants, ratings, cuisines served, category and location details among other details.
+	- The data is scraped from Zomato site in one step using selenium, python and beautifulsoup. 
+	- Data has usability index of 9.1 and has listing until 1 Dec., 2019.
+	- The data contains names of restaurants, ratings, cuisines served, category and location details among other details.
 2.	FourSquare API :
-a.	Using this API we will get the listings of venues in neighborhoods of Pune city
-b.	The data will contain names and categories of venues along with location information
+	- Using this API we will get the listings of venues in neighborhoods of Pune city
+	- The data will contain names and categories of venues along with location information
   
 ### Approach:
 1.	Obtaining data: Datasets will be obtained from respective sites mentioned above. The data obtained from FourSquare API will be converted from JSON to pandas dataframe for further use. 
 2.	Data cleaning and processing: 
-a.	The relevant data on Cafes only will be filtered out. 
-b.	The columns will be analysed for the relevant features and unnecessary features will be dropped from the data.
-c.	The one-hot encoding method will be used to convert categorical data to numerical data. 
-d.	The NaN values will be dealt accordingly by dropping data or replacing with mean values.
-e.	Incorporation of missing latitude and longitude values using Nominatim from geopy package.
+	- The relevant data on Cafes only will be filtered out. 
+	- The columns will be analysed for the relevant features and unnecessary features will be dropped from the data.
+	- The one-hot encoding method will be used to convert categorical data to numerical data. 
+	- The NaN values will be dealt accordingly by dropping data or replacing with mean values.
+	- Incorporation of missing latitude and longitude values using Nominatim from geopy package.
 3.	Data visualization: The data will be merged and visualized using folium on map.
 4.	K-means clustering: The neighbourhoods in Pune will be clustered using k-means method and will be analysed.
 5.	Visualization of clusters on map using folium.
