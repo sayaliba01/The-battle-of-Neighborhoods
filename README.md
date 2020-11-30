@@ -6,25 +6,26 @@
 To plan the target market areas for cooperative dairy processing units in Maharashtra, the units need to understand the high demand pockets of commercial businesses like Cafes. Such understanding will help to plan modifications at processing and storage levels along with opening of outlets of the milk processing units at target neighborhoods for retail sales and branding.
 
 ### Background:
-India is the world’s largest milk producer, accounting for more than 21% share in global milk production (FAO statistical yearbook 2010). The dairy sector in the India has shown remarkable development in the past decade. Dairy cooperatives account for the major share of the processed liquid milk marketed in India and Maharashtra contributes the highest number of cooperatives performing milk business in the processing sector. 
+India is the world’s largest milk producer, accounting for ***more than 21% share*** in global milk production (FAO statistical yearbook 2010). The dairy sector in the India has shown remarkable development in the past decade. Dairy cooperatives account for the major share of the processed liquid milk marketed in India and **Maharashtra contributes the 
+_highest number of cooperatives_ performing milk business in the processing sector. **
 
 Total production of milk in Maharashtra is around 10,153 (thousand tons) for the year 2015-16. In Maharashtra there are 14,921 numbers of cooperative dairy societies and 85 dairy unions working in the state (Economic survey of Maharashtra, 2016-17).
 
-However these cooperative dairy processing units in Maharashtra face constraints at procurement, processing and marketing level which is studied in one research paper. It was observed that at the marketing level, these units advertised their product only at local level. A very few had their own out lets at various places of Maharashtra. Majority of them did not have a wide distribution network. In turn processed milk suppliers failed to do branding and successful retail sales.
+However these cooperative dairy processing units in Maharashtra face ***constraints at procurement, processing and marketing level*** which is studied in one research paper. It was observed that at the marketing level, these units advertised their product only at local level. A very few had their own out lets at various places of Maharashtra. Majority of them did not have a wide distribution network. In turn processed milk suppliers **failed to do branding and successful retail sales.**
 
-To obtain the sustain consumer market in food industry, cooperative units need to setup storage units and branded retail shops at hot target pockets with high demand. Majority of such demand in urban areas come from food outlets like Cafes. 
+To obtain the sustain consumer market in food industry, cooperative units need to setup storage units and branded retail shops at **hot target pockets with high demand**. Majority of such demand in urban areas come from food outlets like Cafes. 
 
-This study will be the small part in this research where we will look for the clusters of high milk demand pockets like Cafes in neighbourhoods of Pune city, one of the high populous urban areas in Maharashtra. The question that can be asked using the FourSquare location data is- which areas in Pune city have high demand for processed milk for food businesses?
+*This study will be the small part in this research where we will look for the clusters of high milk demand pockets like Cafes in neighbourhoods of Pune city, one of the high populous urban areas in Maharashtra. The question that can be asked using the FourSquare location data is- which areas in Pune city have high demand for processed milk for food businesses?*
 
 ## Data :
 
 ### Datasets:
 For this project we will be using two datasets and merge them to obtain all possible data on available Cafes in Pune city.
-1.	Open-source dataset on restaurants of Pune on Zomato available on Kaggle : 
+1.	Open-source dataset on restaurants of Pune on *Zomato* available on Kaggle : 
 	- The data is scraped from Zomato site in one step using selenium, python and beautifulsoup. 
 	- Data has usability index of 9.1 and has listing until 1 Dec., 2019.
 	- The data contains names of restaurants, ratings, cuisines served, category and location details among other details.
-2.	FourSquare API :
+2.	*FourSquare API* :
 	- Using this API we will get the listings of venues in neighborhoods of Pune city
 	- The data will contain names and categories of venues along with location information
   
