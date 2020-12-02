@@ -19,7 +19,6 @@ To obtain the sustain consumer market in food industry, cooperative units need t
 
 ## Data :
 
-### Datasets:
 For this project we will be using two datasets and merge them to obtain all possible data on available Cafes in Pune city.
 1.	Open-source dataset on restaurants of Pune on *Zomato* available on Kaggle : 
 	- The data is scraped from Zomato site in one step using selenium, python and beautifulsoup. 
@@ -29,7 +28,7 @@ For this project we will be using two datasets and merge them to obtain all poss
 	- Using this API we will get the listings of venues in neighborhoods of Pune city
 	- The data will contain names and categories of venues along with location information
   
-### Approach:
+### Methodology:
 1.	Obtaining data: Datasets will be obtained from respective sites mentioned above. The data obtained from FourSquare API will be converted from JSON to pandas dataframe for further use. 
 2.	Data cleaning and processing: 
 	- The relevant data on Cafes only will be filtered out. 
@@ -40,6 +39,18 @@ For this project we will be using two datasets and merge them to obtain all poss
 3.	Data visualization: The data will be merged and visualized using folium on map.
 4.	K-means clustering: The neighbourhoods in Pune will be clustered using k-means method and will be analysed.
 5.	Visualization of clusters on map using folium.
+6. 	Analysis of clusters
+
+### Results:
+
+Total 63 cafes could be obtained from FourSquare data of which cutomer ratings and number of votes were available from Zomato-Pune data.
+Six clusters of cafes in Pune were obtained using K-means clustering. The hot pocket for cafes consisted of 22, 19,9,8,4 and 1 cafes respectively. The clustered differ from each other in number of cafes, localities, and the average customer ratings.
+The 
+
+### Discussion:
+
+### Conclusion:
+
 
 ## References:
 1. Swarnakar, J.L. & Swarnakar, V.S.. (2019). Constraints in Procurement, Processing and Marketing of Milk and Milk Products –A Comparative Study with Special Emphasis to Co-Operative Dairy Processing Units of Karnataka and Maharashtra States. Asian Journal of Dairy and Food Research. 38. 10.18805/ajdfr.DR-1494. 
