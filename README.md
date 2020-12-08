@@ -28,28 +28,37 @@ For this project we will be using two datasets and merge them to obtain all poss
 	- Using this API we will get the listings of venues in neighborhoods of Pune city
 	- The data will contain names and categories of venues along with location information
   
-### Methodology:
-1.	Obtaining data: Datasets will be obtained from respective sites mentioned above. The data obtained from FourSquare API will be converted from JSON to pandas dataframe for further use. 
+## Methodology:
+1.	Obtaining data: Datasets were obtained from respective sites mentioned above. The data obtained from FourSquare API was converted from JSON to pandas dataframe for further use. 
 2.	Data cleaning and processing: 
-	- The relevant data on Cafes only will be filtered out. 
-	- The columns will be analysed for the relevant features and unnecessary features will be dropped from the data.
-	- The one-hot encoding method will be used to convert categorical data to numerical data. 
-	- The NaN values will be dealt accordingly by dropping data or replacing with mean values.
-	- Incorporation of missing latitude and longitude values using Nominatim from geopy package.
-3.	Data visualization: The data will be merged and visualized using folium on map.
-4.	K-means clustering: The neighbourhoods in Pune will be clustered using k-means method and will be analysed.
+	-a.	The zomato dataset was explored for features, their relevance and data types. The unnecessary features were dropped. 
+	-b.	All the unique localities were extracted from zomato dataset and the coordinates were obtained using geopy.
+	-c.	The list of cafes with their coordinates were obtained using FourSquare API. ‘search’ endpoint was used with ‘café’ as search query. Cafes were searched around Pune localities obtained earlier.
+	-d.	Zomato and FourSquare data was merged for the common cafes and their details like ratings and number of voters.
+	-e.	The NaN values were dealt accordingly by dropping data or replacing with mean values.
+3.	Data visualization: The data was merged and visualized using folium on map.
+4.	Clustering of Cafes: The neighbourhoods in Pune was clustered using k-means method and the clusters were analysed.
 5.	Visualization of clusters on map using folium.
 6. 	Analysis of clusters
 
-### Results:
+## Results:
 
 Total 63 cafes could be obtained from FourSquare data of which cutomer ratings and number of votes were available from Zomato-Pune data.
 Six clusters of cafes in Pune were obtained using K-means clustering. The hot pocket for cafes consisted of 22, 19,9,8,4 and 1 cafes respectively. The clustered differ from each other in number of cafes, localities, and the average customer ratings.
-The 
+![alt text](https://github.com/sayaliba01/The-battle-of-Neighborhoods/blob/main/image1.jpg?raw=true)
+The visualization on map shows the hot pockets of location for cafes in Pune.
+![alt text](https://github.com/sayaliba01/The-battle-of-Neighborhoods/blob/main/image2.jpg?raw=true)
 
-### Discussion:
+## Discussion:
 
-### Conclusion:
+The clusters help to understand the distribution of cafes in Pune. When the clusters are analysed for the ratings and customer votings, it can be observed that the one cluster with highest number of cafes have medium to high ratings with high number of voters indicating the hot pocket which can serve as good strategic location for opening of retail shops and the branding and marketing of milk by cooperative dairy processing units in Maharashtra. The cluster includes the cafes mostly from high bustling localities in Pune like Senapati Bapat Road, Fergusson College Road, Kothrud, part of Aundh, Shivaji Nagar.
+The other clusters have few cafes and the ratings are low to medium or medium to high but include less number of cafes.
+
+## Conclusion:
+
+K-Means clustering successfully clusters cafes in Pune according to location, ratings and customers. Still this project faces some limitations like only 63 Cafes were identified from merged dataset. More data can help better to plan strategies for the cause of the project.
+This project forms small part of big project which will facilitate the understanding of market and demands for the processed, packaged milk in food industry like Cafes.
+However, this project successfully derives the hot consumer pocket in Pune in terms of Cafes where the cooperative dairy processing units in Maharashtra can set up their retail shops and organize promotional events for sell on bulk and to attract businesses like Cafes for future long term contracts.
 
 
 ## References:
