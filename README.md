@@ -45,9 +45,9 @@ For this project we will be using two datasets and merge them to obtain all poss
 
 Total 63 cafes could be obtained from FourSquare data of which cutomer ratings and number of votes were available from Zomato-Pune data.
 Six clusters of cafes in Pune were obtained using K-means clustering. The hot pocket for cafes consisted of 22, 19,9,8,4 and 1 cafes respectively. The clustered differ from each other in number of cafes, localities, and the average customer ratings.
-![alt text](https://github.com/sayaliba01/The-battle-of-Neighborhoods/blob/main/image1.jpg?raw=true)
+![Six clusters with the distribution of customer ratings](https://github.com/sayaliba01/The-battle-of-Neighborhoods/blob/main/image1.jpg?raw=true)
 The visualization on map shows the hot pockets of location for cafes in Pune.
-![alt text](https://github.com/sayaliba01/The-battle-of-Neighborhoods/blob/main/image2.jpg?raw=true)
+![Map](https://github.com/sayaliba01/The-battle-of-Neighborhoods/blob/main/image2.jpg?raw=true)
 
 ## Discussion:
 
