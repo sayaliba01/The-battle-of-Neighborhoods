@@ -1,5 +1,10 @@
 # The-battle-of-Neighborhoods
 
+This project I have conducted towards completion of IBM data science professional certification.
+One of the objectives of the assignment was using FourSquare API for extracting data and clustering the data to meet the goals of the project.  
+Towards accomplishing the said purpose, I have come up with the problem statement that tries to contribute towards the marketing problems faced by cooperative dairy processing units in Maharashtra.  
+This is just a minimal approach towards the broad problem.
+
 ## Introduction: 
 
 ### Problem Statement:
