@@ -1,8 +1,11 @@
 # The-battle-of-Neighborhoods
 
-This project I have conducted towards completion of IBM data science professional certification.
+I have conducted This project towards completion of IBM data science professional certification.  
+
 One of the objectives of the assignment was using FourSquare API for extracting data and clustering the data to meet the goals of the project.  
-Towards accomplishing the said purpose, I have come up with the problem statement that tries to contribute towards the marketing problems faced by cooperative dairy processing units in Maharashtra.  
+
+Towards accomplishing the said purpose, I have come up with the problem statement that tries to contribute towards the marketing problems faced by cooperative dairy processing units in Maharashtra. The question that can be asked using the FourSquare location data is- which areas in Pune city have high demand for processed milk for food businesses?  
+
 This is just a minimal approach towards the broad problem.
 
 ## Introduction: 
