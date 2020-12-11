@@ -66,7 +66,7 @@ The other clusters have few cafes and the ratings are low to medium or medium to
 
 K-Means clustering successfully clusters cafes in Pune according to location, ratings and customers. Still this project faces some limitations like only 63 Cafes were identified from merged dataset. More data can help better to plan strategies for the cause of the project.
 This project forms small part of big project which will facilitate the understanding of market and demands for the processed, packaged milk in food industry like Cafes.
-However, this project successfully derives the hot consumer pocket in Pune in terms of Cafes where the cooperative dairy processing units in Maharashtra can set up their retail shops and organize promotional events for sell on bulk and to attract businesses like Cafes for future long term contracts.
+However, this project successfully derives the hot consumer pocket in Pune in terms of Cafes where the cooperative dairy processing units in Maharashtra can set up their retail shops and organize promotional events for sell on bulk and to attract businesses for future long term contracts.
 
 
 ## References:
