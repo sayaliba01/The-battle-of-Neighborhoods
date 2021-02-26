@@ -6,8 +6,6 @@ One of the objectives of the assignment was using FourSquare API for extracting 
 
 Towards accomplishing the said purpose, I have come up with the problem statement that tries to contribute towards the marketing problems faced by cooperative dairy processing units in Maharashtra. The question that can be asked using the FourSquare location data is- which areas in Pune city have high demand for processed milk for food businesses?  
 
-This is just a minimal approach towards the broad problem.
-
 ## Introduction: 
 
 ### Problem Statement:
